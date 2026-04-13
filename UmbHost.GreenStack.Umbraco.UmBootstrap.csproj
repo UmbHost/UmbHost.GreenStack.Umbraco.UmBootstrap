@@ -12,8 +12,8 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
 
     <Authors>UmbHost</Authors>
-    <Title>Umbraco with umBootstrap on GreenStack</Title>
-    <Description>A dotnet new template for Umbraco 17 with umBootstrap preconfigured for GreenStack hosting with Docker support</Description>
+    <Title>Umbraco with UmBootstrap on GreenStack</Title>
+    <Description>A dotnet new template for Umbraco 17 with UmBootstrap preconfigured for GreenStack hosting with Docker support</Description>
     <PackageTags>dotnet-new;templates;umbraco;greenstack;umbhost;umbraco-marketplace</PackageTags>
     <PackageProjectUrl>https://github.com/UmbHost/UmbHost.GreenStack.Umbraco.UmBootstrap</PackageProjectUrl>
     <RepositoryUrl>https://github.com/UmbHost/UmbHost.GreenStack.Umbraco.UmBootstrap</RepositoryUrl>

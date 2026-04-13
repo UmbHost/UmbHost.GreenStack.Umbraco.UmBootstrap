@@ -1,6 +1,6 @@
 # UmbHost.GreenStack.Umbraco.UmBootstrap
 
-A dotnet new template for Umbraco 17 with umBootstrap preconfigured for [GreenStack](https://umbhost.net/sustainable-cloud-hosting/modern-umbraco-hosting) hosting.
+A dotnet new template for Umbraco 17 with UmBootstrap preconfigured for [GreenStack](https://umbhost.net/sustainable-cloud-hosting/modern-umbraco-hosting) hosting.
 
 ## Installation
 
@@ -14,7 +14,7 @@ dotnet new install UmbHost.GreenStack.Umbraco.UmBootstrap
 dotnet new greenstack-umbraco-umbootstrap -n MyProject
 ```
 
-This creates a new Umbraco 17 project with umBootstrap and:
+This creates a new Umbraco 17 project with [UmBootstrap](https://marketplace.umbraco.com/package/umbraco.community.templates.umbootstrap) and:
 
 - Forwarded headers middleware for Traefik proxy
 - HTTPS runtime validator removed (SSL terminated by GreenStack)

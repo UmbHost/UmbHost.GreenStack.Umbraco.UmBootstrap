@@ -1,10 +1,10 @@
 # GreenStack.Umbraco.UmBootstrap
 
-A GitHub template repository for Umbraco 17 with umBootstrap, preconfigured for [GreenStack](https://umbhost.net) hosting.
+A GitHub template repository for Umbraco 17 with UmBootstrap, preconfigured for [GreenStack](https://umbhost.net) hosting.
 
 ## What's included
 
-- Umbraco 17 on .NET 10 with umBootstrap starter kit
+- Umbraco 17 on .NET 10 with UmBootstrap starter kit
 - Forwarded headers middleware for Traefik proxy
 - HTTPS runtime validator removed (SSL terminated by GreenStack)
 - Data protection keys persisted to `/app/keys` in production
