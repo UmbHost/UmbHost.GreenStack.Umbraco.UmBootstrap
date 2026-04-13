@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "UmbHost",
+  "classifications": ["Web", "Umbraco", "GreenStack"],
+  "identity": "UmbHost.GreenStack.Umbraco.UmBootstrap",
+  "name": "Umbraco with umBootstrap on GreenStack",
+  "shortName": "greenstack-umbraco-umbootstrap",
+  "description": "Umbraco 17 with umBootstrap preconfigured for GreenStack hosting with Docker support",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "GreenStack.Umbraco.UmBootstrap",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".github/**",
+            ".git/**",
+            "LICENSE",
+            "README.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "guids": [
+    "31b3f62b-04d5-4e6d-90fe-28bbf02a53aa"
+  ],
+  "postActions": [
+    {
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "description": "Restore NuGet packages",
+      "continueOnError": true,
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ]
+    }
+  ]
+}
