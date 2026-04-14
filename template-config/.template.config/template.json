@@ -5,12 +5,12 @@
   "identity": "UmbHost.GreenStack.Umbraco.UmBootstrap",
   "name": "Umbraco with UmBootstrap on GreenStack",
   "shortName": "greenstack-umbraco-umbootstrap",
-  "description": "Umbraco 17 with UmBootstrap preconfigured for GreenStack hosting with Docker support",
+  "description": "Umbraco 13 LTS with UmBootstrap preconfigured for GreenStack hosting with Docker support",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "GreenStack.Umbraco.UmBootstrap",
+  "sourceName": "GreenStack.Umbraco",
   "preferNameDirectory": true,
   "sources": [
     {

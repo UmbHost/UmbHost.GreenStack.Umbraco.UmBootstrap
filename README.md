@@ -1,11 +1,13 @@
-# UmbHost.GreenStack.Umbraco.UmBootstrap
+# UmbHost.GreenStack.Umbraco.UmBootstrap (v13)
 
-A dotnet new template for Umbraco 17 with UmBootstrap preconfigured for [GreenStack](https://umbhost.net/sustainable-cloud-hosting/modern-umbraco-hosting) hosting.
+A dotnet new template for Umbraco 13 LTS with UmBootstrap preconfigured for [GreenStack](https://umbhost.net/sustainable-cloud-hosting/modern-umbraco-hosting) hosting.
+
+> This is the **v13 LTS** branch of the template, which targets Umbraco 13 (the long-term support release). For the latest Umbraco version, install the template without a version constraint.
 
 ## Installation
 
 ```bash
-dotnet new install UmbHost.GreenStack.Umbraco.UmBootstrap
+dotnet new install UmbHost.GreenStack.Umbraco.UmBootstrap::13.*
 ```
 
 ## Usage
@@ -14,7 +16,7 @@ dotnet new install UmbHost.GreenStack.Umbraco.UmBootstrap
 dotnet new greenstack-umbraco-umbootstrap -n MyProject
 ```
 
-This creates a new Umbraco 17 project with [UmBootstrap](https://marketplace.umbraco.com/package/umbraco.community.templates.umbootstrap) and:
+This creates a new Umbraco 13 LTS project with [UmBootstrap](https://marketplace.umbraco.com/package/umbraco.community.templates.umbootstrap) and:
 
 - Forwarded headers middleware for Traefik proxy
 - HTTPS runtime validator removed (SSL terminated by GreenStack)
@@ -24,11 +26,11 @@ This creates a new Umbraco 17 project with [UmBootstrap](https://marketplace.umb
 
 ## Getting started
 
-Follow the [Getting Started with Umbraco 17 on GreenStack](https://umbhost.net/gb/blog/2026/01/getting-started-with-umbraco-17-on-greenstack-with-github) guide.
+Follow the [Getting Started with Umbraco on GreenStack](https://umbhost.net/gb/blog/2026/01/getting-started-with-umbraco-17-on-greenstack-with-github) guide (concepts apply to Umbraco 13 LTS as well).
 
 ## Source
 
-The template content comes from [GreenStack.Umbraco.UmBootstrap](https://github.com/UmbHost/GreenStack.Umbraco.UmBootstrap), which is also available as a GitHub template repository.
+The template content comes from [GreenStack.Umbraco.UmBootstrap-v13](https://github.com/UmbHost/GreenStack.Umbraco.UmBootstrap-v13), which is also available as a GitHub template repository.
 
 ## GreenStack
 
